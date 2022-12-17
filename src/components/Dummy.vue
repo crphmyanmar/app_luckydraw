@@ -14,7 +14,7 @@ export default {
   /* border: #272522 10px solid; */
   background-image: url('../assets/LuckyDrawmobile.png');
   background-color: #930c30;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
