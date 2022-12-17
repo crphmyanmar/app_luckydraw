@@ -1,18 +1,20 @@
 <template>
   <v-app>
-    <Luckydraw :restart="restart" @clicked="onClickChild" />
-    <!-- </v-main> -->
+    <!-- <Luckydraw :restart="restart" @clicked="onClickChild" /> -->
+    <Dummy />
   </v-app>
 </template>
 
 <script>
-import Luckydraw from './components/Luckydraw.vue';
+// import Luckydraw from './components/Luckydraw.vue';
 import { loadConfettiShape } from 'tsparticles-shape-confetti';
+import Dummy from './components/Dummy.vue';
 
 export default {
   name: 'App',
   components: {
-    Luckydraw,
+    // Luckydraw,
+    Dummy,
   },
   data() {
     return {
